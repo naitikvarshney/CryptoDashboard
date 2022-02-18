@@ -29,7 +29,7 @@ const NewsFeed = () => {
             <h2>News Feed</h2>
             {first7Articles?.map((article, _index) => (
                 <div key={_index}>
-                    <a href={article.url}><p>{article.title}</p></a>
+                    <a href={article.url} target='_blank'><p>{article.title}</p></a>
                 </div>))}
         </div>
     )
