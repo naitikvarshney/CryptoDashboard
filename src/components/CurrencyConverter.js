@@ -6,7 +6,7 @@ const CurrencyConverter = () => {
     const currencies = ['BTC', 'ETH', 'USD', 'XRP', 'LTC', 'ADA' ]
     const [chosenPrimaryCurrency, setChosenPrimaryCurrency] = useState('BTC')
     const [chosenSecondaryCurrency, setChosenSecondaryCurrency] = useState('BTC')
-    const [amount, setAmount] = useState(000)
+    const [amount, setAmount] = useState(0)
     const [exchangedData, setExchangedData] = useState({
         primaryCurrency: 'BTC',
         secondaryCurrency: 'BTC',
